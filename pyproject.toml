@@ -1,13 +1,14 @@
 [tool.poetry]
 name = "kafka-confluent-get-started"
 version = "0.1.0"
-description = ""
+description = "Project to follow the official Confluent's Kafka Getting Started tutorial"
 authors = ["alex carvalho <alex.carvaho.data@gmail.com>"]
 readme = "README.md"
 packages = [{include = "kafka_confluent_get_started"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+confluent-kafka = "^1.9.2"
 
 
 [build-system]
