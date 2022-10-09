@@ -9,6 +9,7 @@ packages = [{include = "kafka_confluent_get_started"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 confluent-kafka = "^1.9.2"
+configparser = "^5.3.0"
 
 
 [build-system]
